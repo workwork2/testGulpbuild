@@ -11,13 +11,26 @@
   "description": "",
   "devDependencies": {
     "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "browser-sync": "^3.0.3",
     "del": "^6.1.1",
     "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^9.1.0",
     "gulp-less": "^5.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-pug": "^5.0.0",
     "gulp-rename": "^2.0.0",
+    "gulp-size": "^5.0.0",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1",
+    "uuid": "^11.0.3"
   }
 }
